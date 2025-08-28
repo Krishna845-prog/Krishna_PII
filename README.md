@@ -50,6 +50,11 @@ Our solution uses a **layered deployment approach** for scalability and low late
 | 4 | {"aadhar":"1234XXX9012","transaction_type":"purchase"} | TRUE |
 
 ---
+## 🔧 System Architecture
+
+Below is the high-level architecture of the PII Defense System:
+
+![System Architecture](./Architecture.png)
 
 ## 🚀 Usage
 
@@ -58,11 +63,11 @@ Our solution uses a **layered deployment approach** for scalability and low late
 git clone https://github.com/Krishna845-prog/Krishna_PII.git
 cd Krishna_PII
 ```
-2. Run Detector
+### 2. Run Detector
 ```bash
 python3 detector_Krishna_Arun_Iyer.py iscp_pii_dataset.csv
 ```
-3. Output
+### 3. Output
 
 A file named:
 ```php-template
@@ -71,7 +76,7 @@ redacted_output_Krishna_Arun_Iyer.csv
 redacted_output_<yourname>.csv
 will be generated in the same folder.
 
-✅ Key Benefits
+# ✅ Key Benefits
 
 1) Scalable → Works at both cluster and service level
 
@@ -81,6 +86,6 @@ will be generated in the same folder.
 
 4) Compliant → Audit-ready logs for GDPR & Indian data protection laws
 
-👨‍💻 Authors
+# 👨‍💻 Author
 
 Krishna Arun Iyer – PII Detection & Redaction Implementation
